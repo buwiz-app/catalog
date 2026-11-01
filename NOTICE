@@ -1,0 +1,14 @@
+buwiz-app/catalog
+Copyright 2026 the buwiz-app/catalog contributors
+
+The repository's own files (tools/, .github/, sources.json, the catalog.json
+schema and formatting) are licensed under the Apache License, Version 2.0
+(see LICENSE).
+
+Each entry in catalog.json describes a third-party plugin that lives in its
+own repository and is distributed under its own license, recorded in the
+entry's "license" field. Entry names, descriptions and logo URLs are read
+from that plugin's own published files; the names, marks and logos belong
+to their respective owners. This repository does not host or relicense any
+plugin, and listing a plugin does not imply endorsement by or affiliation
+with its owner.

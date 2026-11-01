@@ -1,0 +1,14 @@
+{
+  "marketplaces": [
+    { "repo": "https://github.com/cursor/plugins", "ref": "main" }
+  ],
+  "plugins": [
+    { "repo": "https://github.com/vercel/vercel-plugin", "ref": "main", "path": "" },
+    { "repo": "https://github.com/ChromeDevTools/chrome-devtools-mcp", "ref": "main", "path": "" },
+    { "repo": "https://github.com/neondatabase/agent-skills", "ref": "main", "path": "plugins/neon-postgres" },
+    { "repo": "https://github.com/taylorwilsdon/google_workspace_mcp", "ref": "main", "path": "" }
+  ],
+  "excluded": [
+    { "repo": "https://github.com/calcom/cal-mcp", "reason": "no license: the repository has no LICENSE file and package.json declares none" }
+  ]
+}
